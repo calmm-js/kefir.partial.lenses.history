@@ -22,6 +22,8 @@ var undoForget = /*#__PURE__*/K.lift(H.undoForget);
 
 exports.viewIndex = H.viewIndex;
 exports.viewPresent = H.viewPresent;
+exports.viewRedoCount = H.viewRedoCount;
+exports.viewUndoCount = H.viewUndoCount;
 exports.count = count;
 exports.index = index;
 exports.init = init;

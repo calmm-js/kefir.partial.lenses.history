@@ -17,3 +17,5 @@ export const undoCount = K.lift(H.undoCount)
 export const undoForget = K.lift(H.undoForget)
 export {viewIndex} from 'partial.lenses.history'
 export {viewPresent} from 'partial.lenses.history'
+export {viewRedoCount} from 'partial.lenses.history'
+export {viewUndoCount} from 'partial.lenses.history'

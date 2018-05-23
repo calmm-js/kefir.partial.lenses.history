@@ -1,5 +1,5 @@
 import { count, index, init, present, redo, redoCount, redoForget, setIndex, setPresent, undo, undoCount, undoForget } from 'partial.lenses.history';
-export { viewIndex, viewPresent } from 'partial.lenses.history';
+export { viewIndex, viewPresent, viewRedoCount, viewUndoCount } from 'partial.lenses.history';
 import { lift } from 'karet.lift';
 
 // THIS FILE IS GENERATED

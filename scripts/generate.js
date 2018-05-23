@@ -4,7 +4,9 @@ const H = require('partial.lenses.history')
 
 const liftExplicitly = Object.assign(Object.create(null), {
   viewIndex: 0,
-  viewPresent: 0
+  viewPresent: 0,
+  viewRedoCount: 0,
+  viewUndoCount: 0
 })
 
 const doLift = name => liftExplicitly[name] === 1
