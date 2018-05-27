@@ -3,10 +3,10 @@ const fs = require('fs')
 const H = require('partial.lenses.history')
 
 const liftExplicitly = Object.assign(Object.create(null), {
-  viewIndex: 0,
-  viewPresent: 0,
-  viewRedoCount: 0,
-  viewUndoCount: 0
+  index: 0,
+  present: 0,
+  redoIndex: 0,
+  undoIndex: 0
 })
 
 const doLift = name => liftExplicitly[name] === 1

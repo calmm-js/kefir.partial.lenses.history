@@ -1,5 +1,6 @@
 import {Observable, constant as C} from 'kefir'
 
+import * as L from 'kefir.partial.lenses'
 import * as R from 'kefir.ramda'
 
 import * as H from '../dist/kefir.partial.lenses.history.cjs'
@@ -40,5 +41,7 @@ const testEq = (expect, thunk) =>
   })
 
 describe('Lifted Partial Lenses History', () => {
-  testEq(101, () => H.present(H.setPresent(C(101), H.init({}, C(2)))))
+  testEq(101, () =>
+    L.get(H.present, L.set(H.present, C(101), H.init({}, C(2))))
+  )
 })
