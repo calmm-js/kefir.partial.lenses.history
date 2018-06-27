@@ -7,6 +7,7 @@
 	// THIS FILE IS GENERATED
 
 	var count = /*#__PURE__*/K.lift(H.count);
+	var indexMax = /*#__PURE__*/K.lift(H.indexMax);
 	var init = /*#__PURE__*/K.lift(H.init);
 	var redoForget = /*#__PURE__*/K.lift(H.redoForget);
 	var undoForget = /*#__PURE__*/K.lift(H.undoForget);
@@ -16,6 +17,7 @@
 	exports.redoIndex = H.redoIndex;
 	exports.undoIndex = H.undoIndex;
 	exports.count = count;
+	exports.indexMax = indexMax;
 	exports.init = init;
 	exports.redoForget = redoForget;
 	exports.undoForget = undoForget;

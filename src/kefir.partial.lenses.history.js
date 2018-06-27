@@ -5,6 +5,7 @@ import * as K from 'karet.lift'
 
 export const count = K.lift(H.count)
 export {index} from 'partial.lenses.history'
+export const indexMax = K.lift(H.indexMax)
 export const init = K.lift(H.init)
 export {present} from 'partial.lenses.history'
 export const redoForget = K.lift(H.redoForget)
